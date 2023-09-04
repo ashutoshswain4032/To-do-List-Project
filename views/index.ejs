@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs")  %>
+<main class="container">
+
+<div class="day">
+    <h1><%=d%> , <%=m%> <%=da%></h1>
+</div>
+   <%if(locals.arr1){%>
+    <%arr1.forEach((text)=>{ %>
+    <div class="card">
+        <input type="checkbox">
+        <label for="checkbox"><%=text%></label>
+    </div>
+    <%});%>
+    <%}%>
+    <div>
+    <form action="/add" method="post">
+        <input type="text" placeholder="Add new work" class="enter" name="text1" required>
+        <button type="submit">+</button>
+    </form>
+</div>
+</main>
+<%- include("partials/footer.ejs") %>

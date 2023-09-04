@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+  background-color: rgb(224, 106, 220);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: azure;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(151, 21, 191);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  list-style: none;
+  margin: 0 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: azure;
+}
+nav li a:hover {
+  color: rgb(162, 255, 1);
+  font-size: 1.05rem;
+}
+.section1 {
+  font-size: 1.5rem;
+}
+.day {
+  display: flex;
+  background-color: rgb(48, 148, 224);
+  height: 100px;
+  width: fit-content;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3%;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.card{
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 92, 255);
+    padding-left: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+button{
+    width: 40px;
+    text-align: left;
+    background-color:rgb(48, 148, 224);
+    border:0;
+    padding-left: 12px;
+    padding-top:7px;
+    padding-bottom: 8px;
+    border-radius: 50%;
+    font-size:1.5rem;
+    margin-top:7px;
+}
+.enter{
+    width:340px;
+    height: 25px;
+    border: 0;
+    padding-left: 8px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 3%;
+}
